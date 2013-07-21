@@ -6,8 +6,7 @@ public class InputHelper {
 	// Enter a String that will prompt the user.
 	public static String getInput(String prompt){
 
-		BufferedReader stdin = 
-			new BufferedReader( new InputStreamReader(System.in));
+		BufferedReader stdin = new BufferedReader( new InputStreamReader(System.in));
 		
 		// prompt the user
 		System.out.print(prompt);
